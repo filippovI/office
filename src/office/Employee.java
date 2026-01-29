@@ -74,7 +74,4 @@ public class Employee {
     public String toString() {
         return "Employee{" + "employeeId=" + employeeId + ", name=" + name + ", departmentId=" + departmentId + '}';
     }
-    
-    
-    
 }
