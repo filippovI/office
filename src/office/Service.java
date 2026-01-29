@@ -18,7 +18,6 @@ public class Service {
             stm.executeUpdate("INSERT INTO Department VALUES(1,'Accounting')");
             stm.executeUpdate("INSERT INTO Department VALUES(2,'IT')");
             stm.executeUpdate("INSERT INTO Department VALUES(3,'HR')");
-
             stm.executeUpdate("DROP TABLE Employee IF EXISTS");
             stm.executeUpdate("CREATE TABLE Employee(" +
                     "ID INT PRIMARY KEY, " +
